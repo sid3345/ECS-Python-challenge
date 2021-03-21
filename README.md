@@ -1,4 +1,6 @@
 # Challenge Description
+This challenge was hosted on HackerEarth: https://www.hackerearth.com/challenges/hiring/ecs-software-engineer-python-hiring-challenge/
+
 In this challenge, your are asked to complete a [Flask](https://flask.palletsprojects.com)-based **API**, for a number of e-learning courses.
 
 To illustrate the API, here is a mockup of a GUI, which uses it:
