@@ -1,0 +1,15 @@
+Create book record:
+
+curl -X POST "http://localhost:5000/course" -data {"description": "This is a brand new course","discount_price": 5,"title": "Brand new course","price": 25,"image_path": "images/some/path/foo.jpg", "on_discount": false}
+
+
+
+Delete book record by ID:
+
+curl -X "DELETE" "http://localhost:5000/course/1"
+
+
+
+Modify record by ID:
+
+curl -X "PUT" "http://localhost:5000/course/201" -H 'Content-Type: application/json' -d$'{"image_path":"images/some/path/foo.jpg", "discount_price": 5,"id": 201,"price": 25,"title": "Blah blah blah", "on_discount": false, "description": "New description"}
